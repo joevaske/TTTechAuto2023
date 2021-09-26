@@ -1,0 +1,58 @@
+.main-menu {
+  display: none;
+  font-family: 'Grtsk-Tera-Regular', Sans-serif;
+  font-size: 1.8rem;
+  color: #333333;
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+
+  &__items {
+    list-style: none;
+
+    & li {
+      padding: 10px 20px;
+      a {
+        color: #3c3c3b;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.active {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-menu {
+    display: block;
+    position: static;
+
+    font-size: 1.2rem;
+
+    background-color: #fff;
+    padding: 0;
+    &__items {
+      display: flex;
+
+      & li {
+        a {
+          color: #3c3c3b;
+          text-decoration: none;
+          padding: 10px 20px;
+          &:hover {
+            border-bottom: 3px solid #008aca;
+          }
+        }
+      }
+    }
+    &.active {
+      /* Should be replaced on reverse with main-menu */
+      display: block;
+    }
+  }
+}

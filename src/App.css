@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Grtsk-Tera-Thin';
+  src: local('Grtsk-Tera-Thin'),
+    url(./fonts/Grtsk-Tera-Thin.otf) format('truetype');
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Grtsk-Tera-Light';
+  src: local('Grtsk-Tera-Light'),
+    url(./fonts/Grtsk-Tera-Light.otf) format('truetype');
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Grtsk-Tera-Regular';
+  src: local('Grtsk-Tera-Regular'),
+    url(./fonts/Grtsk-Tera-Regular.otf) format('truetype');
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Grtsk-Tera-Medium';
+  src: local('Grtsk-Tera-Medium'),
+    url(./fonts/Grtsk-Tera-Medium.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Grtsk-Tera-Bold';
+  src: local('Grtsk-Tera-Bold'),
+    url(./fonts/Grtsk-Tera-Bold.otf) format('truetype');
 }

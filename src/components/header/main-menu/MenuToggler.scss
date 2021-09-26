@@ -1,0 +1,13 @@
+.menu-toggler {
+  display: block;
+  font-size: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 5px 5px 2px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1200px) {
+  .menu-toggler {
+    display: none !important;
+  }
+}
