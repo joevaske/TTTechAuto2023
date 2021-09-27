@@ -1,0 +1,38 @@
+.top-menu {
+  font-family: 'Grtsk-Tera-Regular', Sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+
+  width: 90%;
+  margin: 2rem auto;
+
+  &__items {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & li {
+      padding: 10px 20px;
+      a {
+        color: #575756;
+        text-decoration: none;
+        &:hover {
+          border-bottom: 3px solid #0093d0;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 1.8rem;
+    color: #878786;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .top-menu {
+    min-width: 1140px;
+  }
+}

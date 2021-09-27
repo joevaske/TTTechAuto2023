@@ -1,0 +1,13 @@
+.home-box {
+  width: 90%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  .home-box {
+    min-width: 1140px;
+  }
+}

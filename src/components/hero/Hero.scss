@@ -1,0 +1,21 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/backgrounds/Automotive_MotionWise_flip_s.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    display: block;
+    font-family: 'Grtsk-Tera-Light', Sans-serif;
+    font-size: 72px;
+    line-height: 8rem;
+    letter-spacing: 2px;
+    color: #fff;
+
+    padding: 0px 100px 100px 100px;
+  }
+}

@@ -9,9 +9,15 @@ const MainMenu = ({ menuToggleState }) => {
         <li>
           <Link to='/what-we-do'>What we do</Link>
         </li>
-        <li>Be part of us</li>
-        <li>Contact and locations</li>
-        <li>What's going on</li>
+        <li>
+          <Link to='/be-part-of-us'>Be part of us</Link>
+        </li>
+        <li>
+          <Link to='/contact-and-locations'>Contact and locations</Link>
+        </li>
+        <li>
+          <Link to='/students-corner'>Students corner</Link>
+        </li>
       </ul>
     </div>
   );
