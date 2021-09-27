@@ -1,0 +1,45 @@
+.what-you-will-find {
+  background-color: #e1edf5;
+  font-family: 'Substance-Regular', Sans-serif;
+  padding: 100px 0;
+
+  &__heading {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+
+    &__title {
+      color: #0093d0;
+      font-family: 'Substance-Regular', Sans-serif;
+      text-align: left;
+      font-size: 40px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__list {
+    display: block;
+    list-style: none;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+
+    margin-bottom: 100px;
+
+    color: #0093d0;
+
+    &__icon {
+      color: #db961f;
+      font-size: 25px;
+      margin-right: 10px;
+    }
+  }
+  &__button {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+.about-us {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: 'Substance-Regular', Sans-serif;
+  text-align: center;
+  padding: 100px 20px;
+
+  &__heading {
+    margin-bottom: 60px;
+
+    &__title {
+      font-size: 40px;
+      text-align: center;
+      padding: 40px;
+    }
+  }
+  &__content {
+    font-family: 'Substance-Light', Sans-serif;
+    font-size: 18px;
+  }
+}

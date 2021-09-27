@@ -10,12 +10,19 @@
 
   &__title {
     display: block;
-    font-family: 'Grtsk-Tera-Light', Sans-serif;
+    font-family: 'Substance-Light', Sans-serif;
     font-size: 72px;
     line-height: 8rem;
     letter-spacing: 2px;
     color: #fff;
 
     padding: 0px 100px 100px 100px;
+    & span {
+      font-family: 'Substance-Thin', Sans-serif;
+      display: block;
+      font-size: 34px;
+      padding-left: 20px;
+      transform: translateY(-10px);
+    }
   }
 }

@@ -14,7 +14,7 @@ import StudentsCorner from './components/pages/StudentsCorner';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={'/tttech-new'}>
       <div className='App'>
         <TopMenu />
         <Header />

@@ -1,0 +1,15 @@
+.jobs {
+  font-family: 'Substance-Regular', Sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  &__heading {
+    margin-bottom: 60px;
+    &__title {
+      font-family: 'Substance-Light', Sans-serif;
+      font-size: 45px;
+      padding: 40px;
+    }
+  }
+}

@@ -1,6 +1,5 @@
 .home-box-module {
-  font-family: 'Grtsk-Tera-Regular', Sans-serif;
-  padding: 150px 100px 150px 100px;
+  font-family: 'Substance-Regular', Sans-serif;
   transition: all 0.3s;
   position: relative;
   height: 450px;
@@ -26,12 +25,13 @@
   &__link {
     position: absolute;
     text-decoration: none;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
 
-    font-size: 30px;
+    font-size: 24px;
     font-weight: normal;
     fill: #ffffff;
     color: #ffffff;

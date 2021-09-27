@@ -10,27 +10,57 @@ html {
 }
 
 @font-face {
-  font-family: 'Grtsk-Tera-Thin';
-  src: local('Grtsk-Tera-Thin'),
-    url(./fonts/Grtsk-Tera-Thin.otf) format('truetype');
+  font-family: 'Substance-Thin';
+  src: local('Substance-Thin'),
+    url(./fonts/FaceType-Substance-Thin.otf) format('truetype');
 }
 @font-face {
-  font-family: 'Grtsk-Tera-Light';
-  src: local('Grtsk-Tera-Light'),
-    url(./fonts/Grtsk-Tera-Light.otf) format('truetype');
+  font-family: 'Substance-Light';
+  src: local('Substance-Light'),
+    url(./fonts/FaceType-Substance-Light.otf) format('truetype');
 }
 @font-face {
-  font-family: 'Grtsk-Tera-Regular';
-  src: local('Grtsk-Tera-Regular'),
-    url(./fonts/Grtsk-Tera-Regular.otf) format('truetype');
+  font-family: 'Substance-Regular';
+  src: local('Substance-Regular'),
+    url(./fonts/FaceType-Substance.otf) format('truetype');
 }
 @font-face {
-  font-family: 'Grtsk-Tera-Medium';
-  src: local('Grtsk-Tera-Medium'),
-    url(./fonts/Grtsk-Tera-Medium.otf) format('truetype');
+  font-family: 'Substance-Medium';
+  src: local('Substance-Medium'),
+    url(./fonts/FaceType-Substance-Medium.otf) format('truetype');
 }
 @font-face {
-  font-family: 'Grtsk-Tera-Bold';
-  src: local('Grtsk-Tera-Bold'),
-    url(./fonts/Grtsk-Tera-Bold.otf) format('truetype');
+  font-family: 'Substance-Bold';
+  src: local('Substance-Bold'),
+    url(./fonts/FaceType-Substance-Bold.otf) format('truetype');
+}
+
+/*
+Tools
+******************************/
+
+.page-title-decoration {
+  display: block;
+  margin: 0 auto 80px auto;
+  height: 10px;
+  background-color: #0093d0;
+  width: 50px;
+}
+
+/*
+    BUTTONS
+******************************/
+
+.button-blue {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 28px;
+
+  fill: #0093d0;
+  color: #0093d0;
+  background-color: rgba(2, 1, 1, 0);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 7px 7px 7px 7px;
+  padding: 25px 80px 25px 80px;
 }
