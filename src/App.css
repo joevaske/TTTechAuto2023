@@ -46,7 +46,24 @@ Tools
   background-color: #0093d0;
   width: 50px;
 }
+.page-title-decoration__left {
+  display: block;
+  margin: 10px auto 30px 0px;
+  height: 10px;
+  background-color: #0093d0;
+  width: 100px;
+}
 
+/*
+    HELPERS
+*******************************/
+.title-blue {
+  color: #0093d0;
+  font-family: 'Substance-Regular', Sans-serif;
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
 /*
     BUTTONS
 ******************************/

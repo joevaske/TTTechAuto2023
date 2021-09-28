@@ -51,7 +51,7 @@ const WhatYouWillFind = () => {
   return (
     <div className='what-you-will-find'>
       <div className='what-you-will-find__heading'>
-        <h2 className='what-you-will-find__heading__title'>
+        <h2 className='what-you-will-find__heading__title title-blue'>
           What you will find
         </h2>
       </div>

@@ -1,0 +1,21 @@
+.timeline {
+  font-family: 'Substance-Light', Sans-serif;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  &__content {
+    &__item {
+      margin-bottom: 40px;
+      &__title {
+        font-size: 30px;
+      }
+
+      &__text {
+        color: #575756;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+      }
+    }
+  }
+}

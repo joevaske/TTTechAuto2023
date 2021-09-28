@@ -1,0 +1,26 @@
+.technical-stack {
+  font-family: 'Substance-Regular', 'sans-serif';
+  background-image: url('../../images/technical-stack/Technical-Stack-Visual_01.jpg');
+  background-size: cover;
+
+  &__modul {
+    width: 50%;
+    background-color: rgba(0, 147, 208, 0.89);
+    padding: 100px 150px 100px 150px;
+
+    &__heading {
+      font-family: 'Substance-Thin', 'sans-serif';
+      color: #fff;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-family: 'Substance-Light', 'sans-serif';
+      color: #fff;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: justify;
+    }
+  }
+}
