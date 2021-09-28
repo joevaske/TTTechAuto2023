@@ -4,7 +4,7 @@ import bePartOfUsImage from '../../images/home-box/be-part-of-us.png';
 import AboutUsIntro from '../about-us-intro/AboutUsIntro';
 import AboutUs from '../about-us/AboutUs';
 import WhatYouWillFind from '../what-you-will-find/WhatYouWillFind';
-import Jobs from '../jobs/Jobs';
+
 import FooterLink from '../footer-link/FooterLink';
 
 const bePartOfUsData = {

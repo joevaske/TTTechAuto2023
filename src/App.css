@@ -9,6 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+}
 @font-face {
   font-family: 'Substance-Thin';
   src: local('Substance-Thin'),
@@ -80,4 +83,6 @@ Tools
   border-width: 1px 1px 1px 1px;
   border-radius: 7px 7px 7px 7px;
   padding: 25px 80px 25px 80px;
+  cursor: pointer;
+  border-color: #0093d0 !important;
 }
