@@ -34,6 +34,19 @@
       }
     }
   }
+
+  .module-1 {
+    -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation-delay: 1s;
+  }
+  .module-2 {
+    -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation-delay: 2s;
+  }
 }
 @media only screen and (min-width: 768px) {
   .what-we-do-intro {

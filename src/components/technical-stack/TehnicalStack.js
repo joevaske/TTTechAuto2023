@@ -4,7 +4,7 @@ import './TehnicalStack.scss';
 const TehnicalStack = () => {
   return (
     <div className='technical-stack'>
-      <div className='technical-stack__modul'>
+      <div className='technical-stack__modul fade-in-left'>
         <div className='technical-stack__modul__heading'>
           <h2>Tecnical Stack....</h2>
         </div>

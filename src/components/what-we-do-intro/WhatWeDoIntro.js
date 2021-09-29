@@ -4,7 +4,7 @@ import './WhatWeDoIntro.scss';
 const WhatWeDoIntro = () => {
   return (
     <div className='what-we-do-intro'>
-      <div className='what-we-do-intro__module'>
+      <div className='what-we-do-intro__module module-1'>
         <div className='what-we-do-intro__module__image-1'></div>
         <div className='what-we-do-intro__module__text'>
           <p>
@@ -25,7 +25,7 @@ const WhatWeDoIntro = () => {
           </p>
         </div>
       </div>
-      <div className='what-we-do-intro__module'>
+      <div className='what-we-do-intro__module module-2'>
         <div className='what-we-do-intro__module__image-2'></div>
         <div className='what-we-do-intro__module__text'>
           <p>

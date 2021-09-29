@@ -6,7 +6,7 @@ import './HomeBoxModule.scss';
 const HomeBoxModule = ({ boxItem }) => {
   return (
     <div
-      className='home-box-module'
+      className='home-box-module '
       style={{
         backgroundImage: 'url(' + boxItem.image + ')',
         backgroundSize: 'cover',
