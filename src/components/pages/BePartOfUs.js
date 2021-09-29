@@ -14,7 +14,7 @@ const bePartOfUsData = {
 
 const footerLinkData = {
   title: 'Jobs',
-  url: 'https://rt-rk.talentlyft.com/',
+  url: 'https://tttech-auto.talentlyft.com/',
   text: 'Join us',
 };
 

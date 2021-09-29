@@ -86,3 +86,12 @@ Tools
   cursor: pointer;
   border-color: #0093d0 !important;
 }
+
+@media only screen and (max-width: 768px) {
+  .button-blue {
+    padding: 20px 50px 20px 50px;
+  }
+  .title-blue {
+    font-size: 36px;
+  }
+}

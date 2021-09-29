@@ -19,12 +19,12 @@
     display: block;
     width: 100%;
     font-family: 'Substance-Thin', Sans-serif;
-    font-size: 68px;
-    line-height: 8rem;
+    font-size: 52px;
+    line-height: 5rem;
     letter-spacing: 2px;
     color: #fff;
 
-    padding: 0px 100px 100px 100px;
+    padding: 0px 100px 50px 50px;
 
     position: absolute;
     top: 50%;
@@ -50,6 +50,10 @@
 
     &__title {
       width: 50%;
+      font-size: 68px;
+      line-height: 8rem;
+
+      padding: 0px 100px 100px 100px;
     }
   }
 }

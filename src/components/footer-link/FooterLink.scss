@@ -8,8 +8,20 @@
     margin-bottom: 60px;
     &__title {
       font-family: 'Substance-Light', Sans-serif;
-      font-size: 45px;
+      font-size: 36px;
       padding: 40px;
+    }
+  }
+}
+@media only screen and (min-width: 400px) {
+  .footer-link {
+    padding: 100px 0;
+    &__heading {
+      margin-bottom: 60px;
+      &__title {
+        font-size: 45px;
+        padding: 40px;
+      }
     }
   }
 }

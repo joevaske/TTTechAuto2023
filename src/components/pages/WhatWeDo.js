@@ -11,7 +11,7 @@ const whatWeDoData = {
 };
 const footerLinkData = {
   title: 'Products',
-  url: 'https://rt-rk.talentlyft.com/',
+  url: 'https://tttech-auto.talentlyft.com/',
   text: 'Discover more',
 };
 

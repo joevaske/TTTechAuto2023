@@ -58,7 +58,8 @@ const WhatYouWillFind = () => {
       <ul className='what-you-will-find__list'>
         {whatYouWillFindList.map((list) => (
           <li key={list.id}>
-            <FaCheck className='what-you-will-find__list__icon' /> {list.title}
+            <FaCheck className='what-you-will-find__list__icon' />{' '}
+            <span>{list.title}</span>
           </li>
         ))}
       </ul>

@@ -21,6 +21,9 @@
         border: 1px solid #fff;
         outline-color: #5bb8e5;
       }
+      textarea {
+        height: 12rem;
+      }
     }
 
     &__part:not(:nth-child(4)) {

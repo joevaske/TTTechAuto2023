@@ -14,7 +14,6 @@ const Header = () => {
       if (window.innerWidth < 1200) {
         setToggle(false);
       }
-      console.log(menuToggle);
     };
     window.addEventListener('resize', handleResize);
   });
@@ -29,7 +28,7 @@ const Header = () => {
         menuToggleState={menuToggle}
         menuToggleSetter={toggleSetter}
       />
-      <MainMenu menuToggleState={menuToggle} />
+      <MainMenu menuToggleState={menuToggle} menuToggleSetter={toggleSetter} />
       <Logo />
     </div>
   );

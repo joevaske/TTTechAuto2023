@@ -1,6 +1,8 @@
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollRestoration from 'react-scroll-restoration';
+
 import 'normalize.css';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './components/header/Header';
 import TopMenu from './components/header/top-menu/TopMenu';
@@ -14,7 +16,8 @@ import StudentsCorner from './components/pages/StudentsCorner';
 
 const App = () => {
   return (
-    <Router basename={'/tttech-new'}>
+    <Router>
+      <ScrollRestoration />
       <div className='App'>
         <TopMenu />
         <Header />
@@ -36,6 +39,7 @@ const App = () => {
           <StudentsCorner />
         </Route>
       </Switch>
+
       <Footer />
     </Router>
   );

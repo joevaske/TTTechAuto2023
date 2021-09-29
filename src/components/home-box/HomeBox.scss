@@ -2,7 +2,14 @@
   max-width: 1140px;
   margin: 100px auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   row-gap: 10px;
   column-gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

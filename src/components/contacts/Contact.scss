@@ -52,11 +52,12 @@
 @media only screen and (min-width: 768px) {
   .contact {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 
     &__item {
-      width: 50%;
+      width: 45%;
     }
   }
 }

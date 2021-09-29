@@ -1,0 +1,64 @@
+.students-corner-module {
+  font-family: 'Substance-Regular', 'sans-serif';
+  max-width: 1140px;
+  margin: 100px auto;
+  text-align: center;
+  &__heading {
+    &__title {
+      font-family: 'Substance-Light', Sans-serif;
+      font-size: 45px;
+      padding: 40px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    &__item {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        display: block;
+        width: 170px;
+      }
+
+      h3 {
+        font-family: 'Substance-Light', Sans-serif;
+        font-size: 16px;
+        padding: 40px;
+        text-align: center;
+        a {
+          color: #575756;
+          text-decoration: none;
+          font-size: 16px;
+          padding: 40px 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .students-corner-module {
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media only screen and (min-width: 920px) {
+  .students-corner-module {
+    &__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}

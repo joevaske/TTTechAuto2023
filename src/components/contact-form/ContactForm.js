@@ -32,7 +32,7 @@ const ContactForm = () => {
             checked={checked}
             onChange={handleChange}
           />
-          <label className='label' for='scales'>
+          <label className='label' htmlFor='scales'>
             {' '}
             *I accept the terms of service
           </label>

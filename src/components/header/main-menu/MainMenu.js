@@ -2,21 +2,41 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainMenu.scss';
 
-const MainMenu = ({ menuToggleState }) => {
+const MainMenu = ({ menuToggleState, menuToggleSetter }) => {
   return (
     <div className={`main-menu ${menuToggleState === true ? 'active' : ''}`}>
       <ul className='main-menu__items'>
         <li>
-          <Link to='/what-we-do'>What we do</Link>
+          <Link
+            to='/what-we-do'
+            onClick={() => menuToggleSetter(!menuToggleState)}
+          >
+            What we do
+          </Link>
         </li>
         <li>
-          <Link to='/be-part-of-us'>Be part of us</Link>
+          <Link
+            to='/be-part-of-us'
+            onClick={() => menuToggleSetter(!menuToggleState)}
+          >
+            Be part of us
+          </Link>
         </li>
         <li>
-          <Link to='/contact-and-locations'>Contact and locations</Link>
+          <Link
+            to='/contact-and-locations'
+            onClick={() => menuToggleSetter(!menuToggleState)}
+          >
+            Contact and locations
+          </Link>
         </li>
         <li>
-          <Link to='/students-corner'>Students corner</Link>
+          <Link
+            to='/students-corner'
+            onClick={() => menuToggleSetter(!menuToggleState)}
+          >
+            Students corner
+          </Link>
         </li>
       </ul>
     </div>
