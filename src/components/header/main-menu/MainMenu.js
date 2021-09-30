@@ -35,7 +35,7 @@ const MainMenu = ({ menuToggleState, menuToggleSetter }) => {
             to='/students-corner'
             onClick={() => menuToggleSetter(!menuToggleState)}
           >
-            Students corner
+            Students' corner
           </Link>
         </li>
       </ul>

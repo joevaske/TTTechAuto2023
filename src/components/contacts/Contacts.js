@@ -13,7 +13,7 @@ const contactsData = [
     country: 'Novi Sad',
     title: 'TTTech Auto DOO Novi Sad',
     location: 'Narodnog fronta 23 F-G, Novi Sad, Serbia',
-    telephone: '+381 (0)21 4801 100',
+    telephone: '+381 (0)21 4801 200',
     email: 'office@tttech.co.rs',
   },
   {
@@ -22,7 +22,7 @@ const contactsData = [
     country: 'Osijek',
     title: 'TTTech Auto DOO',
     location: 'Cara Hadrijana 10b, Osijek, Croatia',
-    telephone: '+381 (0)21 4801 100',
+    telephone: '+385 (0)95 563 63 58',
     email: 'office@tttech.co.rs',
   },
   {
@@ -39,8 +39,8 @@ const contactsData = [
     flag: bosniaFlag,
     country: 'Banja Luka',
     title: 'TTTech Auto DOO Banja Luka',
-    location: 'Narodnog fronta 23 F-G, Novi Sad, Serbia',
-    telephone: '+381 (0)21 4801 100',
+    location: 'Patre 5, Banja Luka, Bosnia',
+    telephone: '+387 (0)66 808 554',
     email: 'office@tttech.co.rs',
   },
 ];

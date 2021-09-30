@@ -28,7 +28,7 @@ const boxes = [
   },
   {
     id: 4,
-    title: 'Students corner',
+    title: "Students' corner",
     url: 'students-corner',
     image: studentsCornerBox,
   },

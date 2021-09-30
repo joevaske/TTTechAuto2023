@@ -5,7 +5,7 @@ import PageIntro from '../page-intro/PageIntro';
 import StudentsCornerModule from '../students-corner-module/StudentsCornerModule';
 
 const studentsCornerData = {
-  title: 'Students corner',
+  title: "Students' corner",
   image: studentsCornerImage,
 };
 

@@ -11,7 +11,7 @@ const whatWeDoData = {
 };
 const footerLinkData = {
   title: 'Products',
-  url: 'https://tttech-auto.talentlyft.com/',
+  url: 'https://www.tttech-auto.com/products/safety-software-platform/motionwise/',
   text: 'Discover more',
 };
 

@@ -11,7 +11,7 @@ const StudentsCornerModule = () => {
     <div className='students-corner-module'>
       <div className='students-corner-module__heading'>
         <h2 className='students-corner-module__heading__title'>
-          Students corner
+          Students' corner
         </h2>
         <span className='page-title-decoration'></span>
       </div>
