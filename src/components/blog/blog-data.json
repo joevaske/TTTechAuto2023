@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "TTTech Aerospace and RUAG Space join forces to deliver TTEthernet® network and computing platform for NASA’s Gateway",
+    "text": "Two years ago, TTTech Aerospace and RUAG Space announced they were working together to develop TTEthernet® equipment for deep space and began to jointly develop commercial off-the-shelf (COTS) TTEthernet® network products for next generation avionics network and computing platforms. After being successful on the market and closing the first contracts within the NASA Artemis program, TTTech Aerospace and RUAG Space strengthened their commitment to jointly develop space products with a formal teaming agreement closed in June 2021.<br />“TTTech Aerospace and RUAG Space are partnering using their complementary strengths, with TTTech Aerospace as a technology leader in safety-critical communication platforms and RUAG Space with its three decades of experience in designing and manufacturing space-qualified equipment. This partnership allows us to design and produce high-tech TTEthernet® equipment for the use in extremely harsh space environments like the moon orbit,” says Christian Fidi, Senior Vice President Business Unit Aerospace at TTTech.",
+
+    "image": {
+      "path": "../images/blog/blog-image-example.jpg",
+
+      "desc": "The teaming agreement was signed at TTTech’s headquarters in Vienna, Austria (© TTTech Computertechnik AG)."
+    },
+    "date": "15. Oktobar 2021."
+  },
+  {
+    "id": 2,
+    "title": "Title2",
+    "text": "Two years ago, TTTech Aerospace and RUAG Space announced they were working together to develop TTEthernet® equipment for deep space and began to jointly develop commercial off-the-shelf (COTS) TTEthernet® network products for next generation avionics network and computing platforms. After being successful on the market and closing the first contracts within the NASA Artemis program, TTTech Aerospace and RUAG Space strengthened their commitment to jointly develop space products with a formal teaming agreement closed in June 2021.<br />“TTTech Aerospace and RUAG Space are partnering using their complementary strengths, with TTTech Aerospace as a technology leader in safety-critical communication platforms and RUAG Space with its three decades of experience in designing and manufacturing space-qualified equipment. This partnership allows us to design and produce high-tech TTEthernet® equipment for the use in extremely harsh space environments like the moon orbit,” says Christian Fidi, Senior Vice President Business Unit Aerospace at TTTech.",
+    "image": {
+      "path": "/images/blog/blog-image-example.jpg",
+      "desc": "The teaming agreement was signed at TTTech’s headquarters in Vienna, Austria (© TTTech Computertechnik AG)."
+    },
+    "date": "15. Oktobar 2021."
+  }
+]

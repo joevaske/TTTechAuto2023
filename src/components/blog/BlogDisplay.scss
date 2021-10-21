@@ -1,0 +1,111 @@
+.blog-display {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: 'Substance-Regular', Sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+
+  .blog-card {
+    border-top: 1px solid #dadad9;
+    padding-bottom: 0px;
+    padding-top: 20px;
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.16667;
+
+      color: #0093d0;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    &__media {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #676767;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    &__footer {
+      color: #8d8d8d;
+      font-size: 14px;
+      line-height: 16px;
+      padding-bottom: 20px;
+      padding-top: 8px;
+
+      display: flex;
+      justify-content: space-between;
+
+      .read-more {
+        text-decoration: none;
+        color: #225076;
+        padding: 10px 20px;
+        border: 1px solid #225076;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .blog-card__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+    .blog-card__media {
+      padding-left: 20px;
+      grid-row: 1;
+      grid-column: 2;
+    }
+    .blog-card__text {
+      grid-row: 1;
+      grid-column: 1;
+    }
+  }
+  .blog-card-1 {
+    border-top: none !important;
+    padding-top: 0px !important;
+  }
+  .blog-display-1 {
+    grid-column: 1 / 2; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
+    grid-row: 1 / 3; /* same concept, but for rows */
+
+    .blog-card-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .blog-card__body-1 {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      .blog-card__media-1 img {
+        width: 100% !important;
+      }
+      .blog-card__media-1 {
+        order: 1;
+        padding-left: 0px;
+      }
+      .blog-card__text-1 {
+        order: 2;
+      }
+    }
+
+    .blog-card__title-1 {
+      order: 2;
+    }
+
+    .blog-card__footer-1 {
+      order: 4;
+    }
+  }
+}

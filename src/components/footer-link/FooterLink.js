@@ -12,7 +12,12 @@ const FooterLink = ({ footerLinkData }) => {
         {/* <Link className='button-blue' to='/contact-and-location'>
         Join us
       </Link> */}
-        <a className='button-blue' href={footerLinkData.url}>
+        <a
+          className='button-blue'
+          href={footerLinkData.url}
+          target='_blank'
+          rel='noreferrer'
+        >
           {footerLinkData.text}
         </a>
       </div>

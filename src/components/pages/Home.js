@@ -1,12 +1,12 @@
 import React from 'react';
 import Hero from '../hero/Hero';
-import HomeBox from '../home-box/HomeBox';
+import HomeBoxTwo from '../home-box/HomeBoxTwo';
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <HomeBox />
+      <HomeBoxTwo />
     </div>
   );
 };

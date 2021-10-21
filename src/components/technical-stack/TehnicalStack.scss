@@ -1,6 +1,6 @@
-.technical-stack {
+/* .technical-stack {
   font-family: 'Substance-Regular', 'sans-serif';
-  background-image: url('../../images/technical-stack/Technical-Stack-Visual_01.jpg');
+  background-image: url('../../images/technical-stack/Technical-Stack-Visual_01.webp');
   background-size: cover;
 
   &__modul {
@@ -45,6 +45,40 @@
   .technical-stack {
     &__modul {
       padding: 100px 150px 100px 150px;
+    }
+  }
+} */
+
+.technical-stack-2 {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: 'Substance-Regular', Sans-serif;
+  padding: 0px 20px;
+
+  &__title {
+    font-family: 'Substance-Light', Sans-serif;
+    font-size: 45px;
+
+    text-align: center;
+    padding: 40px 40px;
+
+    &__decoration {
+      display: block;
+      margin: 0 auto 80px auto;
+      height: 10px;
+      background-color: #0093d0;
+      width: 50px;
+    }
+  }
+  &__content {
+    font-family: 'Substance-Light', Sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #575756;
+    text-align: center;
+
+    p {
+      margin-bottom: 20px;
     }
   }
 }

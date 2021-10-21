@@ -1,6 +1,6 @@
 import React from 'react';
 import PageIntro from '../page-intro/PageIntro';
-import bePartOfUsImage from '../../images/home-box/be-part-of-us.png';
+import bePartOfUsImage from '../../images/home-box/be-part-of-us.webp';
 import AboutUsIntro from '../about-us-intro/AboutUsIntro';
 import AboutUs from '../about-us/AboutUs';
 import WhatYouWillFind from '../what-you-will-find/WhatYouWillFind';
@@ -22,10 +22,10 @@ const BePartOfUs = () => {
   return (
     <div className='be-part-of-us'>
       <PageIntro pageIntro={bePartOfUsData} />
-      <AboutUsIntro />
-      <AboutUs />
-      <WhatYouWillFind />
-      <FooterLink footerLinkData={footerLinkData} />
+      {/* <AboutUsIntro /> */}
+      <AboutUs aboutUsLinkData={footerLinkData} />
+      {/* <WhatYouWillFind />*/}
+      {/*   <FooterLink footerLinkData={footerLinkData} /> */}
     </div>
   );
 };

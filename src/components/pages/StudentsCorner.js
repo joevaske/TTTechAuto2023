@@ -1,6 +1,6 @@
 import React from 'react';
 
-import studentsCornerImage from '../../images/home-box/students-corner.jpg';
+import studentsCornerImage from '../../images/home-box/students-corner.webp';
 import PageIntro from '../page-intro/PageIntro';
 import StudentsCornerModule from '../students-corner-module/StudentsCornerModule';
 

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 600px) {
+  .blog-body {
+    max-width: 1248px;
+    margin: 0 auto;
+    font-family: 'Substance-Regular', Sans-serif;
+    text-align: center;
+    padding: 100px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

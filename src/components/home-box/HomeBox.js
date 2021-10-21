@@ -2,10 +2,10 @@ import React from 'react';
 import HomeBoxModule from './HomeBoxModule';
 import './HomeBox.scss';
 
-import whatWeDoBox from '../../images/home-box/what-we-do.jpg';
-import bePartOfUsBox from '../../images/home-box/be-part-of-us.png';
-import contactAndLocationsBox from '../../images/home-box/contact-and-location.jpg';
-import studentsCornerBox from '../../images/home-box/students-corner.jpg';
+import whatWeDoBox from '../../images/home-box/what-we-do.webp';
+import bePartOfUsBox from '../../images/home-box/be-part-of-us.webp';
+import contactAndLocationsBox from '../../images/home-box/contact-and-location.webp';
+import studentsCornerBox from '../../images/home-box/students-corner.webp';
 
 const boxes = [
   {

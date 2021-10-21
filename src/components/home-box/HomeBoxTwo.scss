@@ -1,0 +1,32 @@
+.home-box-2 {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: 'Substance-Regular', Sans-serif;
+  padding: 100px 20px;
+
+  &__title {
+    font-family: 'Substance-Regular', Sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding: 40px 40px;
+
+    &__decoration {
+      display: block;
+      margin: 0 auto 80px auto;
+      height: 10px;
+      background-color: #0093d0;
+      width: 50px;
+    }
+  }
+  &__content {
+    font-family: 'Substance-Light', Sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #575756;
+    text-align: center;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}

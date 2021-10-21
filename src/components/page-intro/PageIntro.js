@@ -1,5 +1,6 @@
 import React from 'react';
 import './PageIntro.scss';
+import parse from 'html-react-parser';
 
 const PageIntro = ({ pageIntro }) => {
   return (
@@ -10,7 +11,7 @@ const PageIntro = ({ pageIntro }) => {
         backgroundSize: 'cover',
       }}
     >
-      <h1 className='page-intro__title fade-in'>{pageIntro.title}</h1>
+      <h1 className='page-intro__title fade-in'>{parse(pageIntro.title)}</h1>
     </div>
   );
 };
