@@ -4,14 +4,53 @@ import './AboutUs.scss';
 const AboutUs = ({ aboutUsLinkData }) => {
   return (
     <div className='about-us'>
-      <div className='about-us__heading'>
+      {/*  <div className='about-us__heading'>
         <h2 className='about-us__heading__title'>
           Zapošljavamo 200 inženjera svih senioriteta
         </h2>
         <span className='page-title-decoration'></span>
-      </div>
+      </div> */}
       <div className='about-us__content'>
         <p>
+          30 years of experience and knowledge in embedded systems have
+          qualified us for the development of the most complex systems to be
+          built into cars.
+        </p>
+        <p>
+          With our leading technology solutions, we ensure safety and electronic
+          robustness for a more automated world. Our focus is on{' '}
+          <strong>
+            safety-critical, time-triggered and fail-operational systems
+          </strong>
+          . This is our job, our expertise and our passion.
+        </p>
+        <p>
+          Autonomous driving is the next technological revolution, mainly
+          because of its impact on safety and quality of life. At the same time,
+          it is technologically challenging as it will become the foundation of
+          other technologies, services and applications.
+        </p>
+        <p>
+          All our customers are working on autonomous driving problems and count
+          on us to help them solve its most complex elements - from urban
+          driving, to complete autonomy on highways, to autonomous parking.{' '}
+        </p>
+        <p>
+          <strong>
+            This is an opportunity to be part of a groundbreaking development
+            that will shape both the near and distant future.
+          </strong>
+        </p>
+        <a
+          className='button-blue'
+          href={aboutUsLinkData.url}
+          target='_blank'
+          rel='noreferrer'
+        >
+          Join us
+        </a>
+
+        {/*   <p>
           Naš domen su embedded sistemi, a znanje i 30 godina iskustva nas je
           kvalifikovalo za razvoj onih najkompleksnijih, ugrađenih u automobile.
         </p>
@@ -49,7 +88,7 @@ const AboutUs = ({ aboutUsLinkData }) => {
             Ovo je prilika da budete deo pionirskog razvoja koji će obeležiti i
             blisku i daleku budućnost.
           </strong>
-        </p>
+        </p> */}
         {/*  <p>
           RT-RK je sistem koji već 30 godina radi na najizazovnijim temama iz
           oblasti razvoja kompleksnog sofvera koji radi u realnom vremenu, a

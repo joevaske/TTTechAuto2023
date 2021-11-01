@@ -16,7 +16,7 @@ const FacultyNoviSad = () => {
 
       <div className='container'>
         <div className='faculty-logo'>
-          <img src={ftnImg} />
+          <img src={ftnImg} alt='Faculty of Technical Sciences' />
         </div>{' '}
         <h3 className='blog-heading'>Study Programme</h3>
         <span className='page-title-decoration'></span>

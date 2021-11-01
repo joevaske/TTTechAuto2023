@@ -1,11 +1,8 @@
 import React from 'react';
 import PageIntro from '../page-intro/PageIntro';
-import bePartOfUsImage from '../../images/home-box/be-part-of-us.webp';
-import AboutUsIntro from '../about-us-intro/AboutUsIntro';
-import AboutUs from '../about-us/AboutUs';
-import WhatYouWillFind from '../what-you-will-find/WhatYouWillFind';
+import bePartOfUsImage from '../../images/home-box/be-part-of-us-8.jpg';
 
-import FooterLink from '../footer-link/FooterLink';
+import AboutUs from '../about-us/AboutUs';
 
 const bePartOfUsData = {
   title: 'Be part of us',
@@ -22,10 +19,8 @@ const BePartOfUs = () => {
   return (
     <div className='be-part-of-us'>
       <PageIntro pageIntro={bePartOfUsData} />
-      {/* <AboutUsIntro /> */}
+
       <AboutUs aboutUsLinkData={footerLinkData} />
-      {/* <WhatYouWillFind />*/}
-      {/*   <FooterLink footerLinkData={footerLinkData} /> */}
     </div>
   );
 };

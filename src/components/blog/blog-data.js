@@ -1,3 +1,4 @@
+import markoHalekImage from '../../images/blog/Marko_Halak_eng.jpg';
 import news1Image from '../../images/blog/Vladimir_Pavlovic_en1.jpg';
 import news2Image from '../../images/blog/Zvjezdan_eng.jpg';
 import news3Image from '../../images/blog/Sladjana_Ivic_eng-2.jpg';
@@ -10,6 +11,18 @@ import news8Image from '../../images/blog/motionwise.jpg';
 export const allNews = [
   {
     id: 1,
+    title: 'Kompleksnost testiranja ADAS sistema u razvoju',
+    image: {
+      path: markoHalekImage,
+      desc: 'Kompleksnost testiranja ADAS sistema u razvoju',
+    },
+    excerpt:
+      '"Testiranje ADAS sistema koji je još u razvoju veliki je izazov. Takođe je izuzetno zahtjevno dizajnirati i automatizirati testove, napraviti okruženje koje bi se adaptiralo kako bi se testovi ponovno mogli izvršiti u okruženju klijenta. Ovakav sustav mora rješavati sve te probleme samostalno za vrijeme runtime-a kako bi rezultati uvijek bili dostupni i bez iznimke." <br /> VMarko Halak – Chief Architect Test, Platform Test Team Lead MotionWise&trade;...',
+    text: ' <p class="black light-text pl-2" style="text-align: center"><em> „Testiranje ADAS sistema koji je još u razvoju veliki je izazov. Takođe je izuzetno zahtjevno dizajnirati i automatizirati testove, napraviti okruženje koje bi se adaptiralo kako bi se testovi ponovno mogli izvršiti u okruženju klijenta. Ovakav sustav mora rješavati sve te probleme samostalno za vrijeme runtime-a kako bi rezultati uvijek bili dostupni i bez iznimke.“ <br> <br>Marko Halak – Chief Architect Test, Platform Test Team Lead MotionWise&trade; </em> </p> <br> <div class="intro-testemonials-img-blog" > <img src="https://webdemo.rt-rk.com/tttech-new/images/blog/mowi-integration.jpg" alt="Kompleksnost testiranja ADAS sistema u razvoju – Marko Halak "/> </div> <p>Moje trenutne obveze su:</p> <ul class="blog-list"> <li class="blog-list-item">Sudjelovanje u analizama novih funkcionalnosti MotionWise-a kao jedan od Chief Architect-a</li> <li class="blog-list-item">Dodavanja novih funkcionalnosti MotionWise-a koje su od veće važnosti za testiranje platforme</li> <li class="blog-list-item">Tehnički nadzirati tim od 24 osobe i sudjelovati u razvoju testnih koncepata</li> <li class="blog-list-item">Definiranje smjernice testiranja uzimajući u obzir Functional Safety ISO26262 standard</li> <li class="blog-list-item">Definirati smjernice automatizacije testova</li> <li class="blog-list-item">Osmišljavati tehnička rješenja za probleme kao što su ponovno korištenje test case-ova na drugim projektima za smanjenje potrebnog opsega posla</li> <li class="blog-list-item">Osmišljavanje arhitekture i razvoj jednog od dva glavna programa za testiranje (TestExecutor)</li> <li class="blog-list-item">Tražiti tehnička rješenja prilikom većih blokirajućih problema u automatizaciji testova</li> <li class="blog-list-item">Osmišljavati mehanizme robustnosti prilikom testiranja obzirom da je testno okruženje kompleksan sustav koji ima veliku količinu varijabli što ga čini vrlo osjetljivim. Obzirom na veliku količinu testova, automatizacija je od iznimne važnosti ali isto tako i CI (Continuous Testing) koji nam omogućuje da sve te testove izvršavamo bez nadzora preko noći. </li> </ul> <p> Najveći izazovi sa kojima se susrećem su: </p> <ul class="blog-list" style="list-style-type: decimal;"> <li class="blog-list-item">Kako testirati samo dio kompleksnog ADAS sistema na način da zadovolji standarde? Sistem se tek razvija a test mora da pokrije trenutna rješenja koja mi pokušavmo razviti kao dio MotionWise-a. Po standardu testira se isključivo gotov sistem kao cjelina ali budući da se ovako kompleksni sustavi razvijaju na više lokacija segmentirano, detekcija problema u trenu kada se sve spoji u završni sustav je prekasna. </li> <li class="blog-list-item">Osmisliti koncept „TestCase Reusability“ kako bismo smanjili potreban rad na klijentskim projektima. Cijeli koncept traži dizajniranje testova tako da se da se testovi sa MotionWise mogu ponovno izvršiti u okruženju klijenta. Ono što je zahtjevan dio ove teme je osmisliti test i automatizirati ga na taj način da test ima generalne korake testiranja koji se adaptira prema potrebama projekta klijenta. Ovakav sustav izgleda dobro na papiru ali zbog kompleksnosti koja se nalazi iza ovog koncepta, test okruženje može imati velikih problema prilikom izvođenja u praksi. Sustav mora rješavati sve te probleme samostalno za vrijeme runtime-a kako bi rezultati uvijek bili dostupni i bez iznimke.</li> </ul>',
+    date: '01. Novembar 2021.',
+  },
+  {
+    id: 2,
     title: 'Tehnički background mi pomaže da brže i jasnije komuniciram',
     image: {
       path: news1Image,
@@ -21,7 +34,7 @@ export const allNews = [
     date: '18. Oktobar 2021.',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Konstantno imam priliku da učim, napredujem i da se dokazujem',
     image: {
       path: news2Image,
@@ -33,7 +46,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 3,
+    id: 4,
     title:
       'Koristimo najsavremenije alate i opremu za čiju primenu se konstantno obučavamo',
     image: {
@@ -46,7 +59,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 4,
+    id: 5,
     title:
       'Francuska je prva evropska država koja prilagođava pravnu regulativu za autoputeve i saobraćaj autonomnim vozilima',
     image: {
@@ -59,7 +72,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 5,
+    id: 6,
     title:
       'How I became a Medior Software Developer in two years - Ivana Tesevic',
     image: {
@@ -72,7 +85,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 6,
+    id: 7,
     title:
       'Mi smo „opsednuti pouzdanošću“ u najpozitivnijem smislu reči – Miljan Čubrilo',
     image: {
@@ -85,7 +98,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 7,
+    id: 8,
     title: 'The story behind the business with Danijel Spasojevic',
     image: {
       path: news7Image,
@@ -97,7 +110,7 @@ export const allNews = [
     date: '15. Oktobar 2021.',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Real-time automotive – bezbedni sistemi budućnosti',
     image: {
       path: news8Image,

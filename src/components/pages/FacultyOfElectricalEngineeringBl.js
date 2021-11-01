@@ -14,7 +14,7 @@ const FacultyOfElectricalEngineeringBl = () => {
       <PageIntro pageIntro={facultyOfElectricalEngineeringBlData} />
       <div className='container'>
         <div className='faculty-logo'>
-          <img src={etfBl} />
+          <img src={etfBl} alt='Faculty of Electrical Engineering' />
         </div>
         <h3 className='blog-heading'>Scholarships and Internships</h3>
         <span className='page-title-decoration'></span>
@@ -29,7 +29,11 @@ const FacultyOfElectricalEngineeringBl = () => {
             Studentima smjera Računarsko inženjerstvo, nudi se program
             neobavezujućih stipendija već od 2. godine studija. Za više
             informacija pišite na{' '}
-            <a href='mailto:stipendija@rt-rk.com' target='_blank'>
+            <a
+              href='mailto:stipendija@rt-rk.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               stipendija@rt-rk.com
             </a>
             .
@@ -38,7 +42,11 @@ const FacultyOfElectricalEngineeringBl = () => {
             Za studente 3. i 4 godine studijskog programa Računarstvo i
             informatika nudimo program obavezujućih stipendija. Za više
             informacija pišite na{' '}
-            <a href='mailto:diplomski@rt-rk.com' target='_blank'>
+            <a
+              href='mailto:diplomski@rt-rk.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               diplomski@rt-rk.com
             </a>
             .

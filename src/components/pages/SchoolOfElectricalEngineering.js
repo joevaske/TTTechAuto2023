@@ -16,10 +16,10 @@ const SchoolOfElectricalEngineering = () => {
       <div className='container'>
         <div className='faculty-logo-container'>
           <div className='faculty-logo'>
-            <img src={etfImg} />
+            <img src={etfImg} alt='School of Electrical Engineering' />
           </div>{' '}
           <div className='faculty-logo'>
-            <img src={matematickiImg} />
+            <img src={matematickiImg} alt='Faculty of Mathematics' />
           </div>{' '}
         </div>
         <h3 className='blog-heading'>Scholarships and Internships</h3>

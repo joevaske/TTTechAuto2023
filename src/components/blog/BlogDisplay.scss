@@ -19,6 +19,12 @@
       color: #0093d0;
       text-decoration: none;
       background-color: transparent;
+      & a {
+        text-decoration: none;
+        color: #0093d0;
+        font-size: 20px;
+        font-weight: 400;
+      }
     }
 
     &__media {
@@ -55,7 +61,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
   .blog-card__body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -58,6 +58,7 @@ Tools
 .blog-heading {
   font-family: 'Substance-Light', Sans-serif;
   font-size: 45px;
+  font-weight: 300;
   text-align: center;
   padding: 40px;
 }
@@ -187,6 +188,7 @@ Tools
 ******************************/
 
 .button-blue {
+  font-family: 'Substance-Light', Sans-serif;
   display: inline-block;
   text-decoration: none;
   font-size: 28px;

@@ -1,4 +1,5 @@
 .top-menu {
+  display: none;
   font-family: 'Substance-Regular', Sans-serif;
   font-size: 1.4rem;
   color: #000000;
@@ -33,7 +34,11 @@
     color: #878786;
   }
 }
-
+@media only screen and (min-width: 600px) {
+  .top-menu {
+    display: block;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .top-menu {
     min-width: 1140px;

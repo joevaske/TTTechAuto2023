@@ -16,7 +16,10 @@ const FacultyOfElectricalEngineering = () => {
 
       <div className='container'>
         <div className='faculty-logo'>
-          <img src={feritOs} />
+          <img
+            src={feritOs}
+            alt='Faculty of Electrical Engineering, Computer Science and Information Technology'
+          />
         </div>{' '}
         <h3 className='blog-heading'>Study Programme</h3>
         <span className='page-title-decoration'></span>
@@ -27,7 +30,11 @@ const FacultyOfElectricalEngineering = () => {
         <p className='blog-text'>
           Na FERIT-u postoji studijski program pod nazivom Master of Automotive
           Computing and Communications. Za više detalja, pogledajte
-          <a href='https://autocom.ferit.hr/programme/' target='_blank'>
+          <a
+            href='https://autocom.ferit.hr/programme/'
+            target='_blank'
+            rel='noreferrer'
+          >
             https://autocom.ferit.hr/programme/
           </a>
         </p>

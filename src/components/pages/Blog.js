@@ -12,13 +12,30 @@ const blogData = {
 };
 
 const Blog = () => {
+  const [numBlogs, SetNumBlogs] = useState(3);
+
+  const slicedArray = allNews.slice(0, numBlogs);
+
+  const setBlogs = () => {
+    if (numBlogs === 3) {
+      SetNumBlogs(allNews.length);
+    } else {
+      SetNumBlogs(3);
+    }
+  };
+
   return (
     <div className='blog'>
       <PageIntro pageIntro={blogData} />
       <div className='blog-body'>
-        {allNews.map((news) => (
+        {slicedArray.map((news) => (
           <BlogDisplay key={news.id} news={news} />
         ))}
+      </div>
+      <div className='blog-button'>
+        <button className='button-blue' onClick={setBlogs}>
+          {numBlogs === 3 ? ' Show More ' : 'Show Less'}
+        </button>
       </div>
     </div>
   );
