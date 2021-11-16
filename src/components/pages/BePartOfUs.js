@@ -16,6 +16,8 @@ const footerLinkData = {
 };
 
 const BePartOfUs = () => {
+  const lang = 'en-RS';
+  document.documentElement.lang = lang;
   return (
     <div className='be-part-of-us'>
       <PageIntro pageIntro={bePartOfUsData} />

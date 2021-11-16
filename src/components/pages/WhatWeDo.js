@@ -16,6 +16,8 @@ const footerLinkData = {
 };
 
 const WhatWeDo = () => {
+  const lang = 'en-RS';
+  document.documentElement.lang = lang;
   return (
     <div className='what-we-do'>
       <PageIntro pageIntro={whatWeDoData} />

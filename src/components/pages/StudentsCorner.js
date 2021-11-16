@@ -10,6 +10,9 @@ const studentsCornerData = {
 };
 
 const StudentsCorner = () => {
+  const lang = 'en-RS';
+  document.documentElement.lang = lang;
+
   return (
     <div className='students-corner'>
       <PageIntro pageIntro={studentsCornerData} />

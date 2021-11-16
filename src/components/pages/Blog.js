@@ -12,6 +12,8 @@ const blogData = {
 };
 
 const Blog = () => {
+  const lang = 'sr';
+  document.documentElement.lang = lang;
   const [numBlogs, SetNumBlogs] = useState(3);
 
   const slicedArray = allNews.slice(0, numBlogs);

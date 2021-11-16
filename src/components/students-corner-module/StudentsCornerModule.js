@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './StudentsCornerModule.scss';
 
 import nsLogo from '../../images/students-corner/01-ns.png';
@@ -29,27 +28,50 @@ const StudentsCornerModule = () => {
         <div className='students-corner-module__content__item'>
           <img src={nsLogo} alt='Novi Sad Office' />
           <h3>
-            <Link to='/faculty-novi-sad'> Novi Sad Office</Link>
+            <a
+              href='https://tttech-auto.talentlyft.com/blog/novi-sad-office-lS'
+              target='_blank'
+              rel='noreferrer'
+            >
+              {' '}
+              Novi Sad Office
+            </a>
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
           <img src={bgLogo} alt='Belgrade Office' />
           <h3>
-            <Link to='/school-of-electrical-engineering'>Belgrade Office</Link>
+            <a
+              href='https://tttech-auto.talentlyft.com/blog/belgrade-office-lV'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Belgrade Office
+            </a>
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
           <img src={osLogo} alt='Osijek Office' />
           <h3>
-            <Link to='/faculty-of-electrical-engineering'>Osijek Office</Link>
+            <a
+              href='https://tttech-auto.talentlyft.com/blog/osijek-office-lU'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Osijek Office
+            </a>
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
           <img src={blLogo} alt='Banja Luka Office' />
           <h3>
-            <Link to='/faculty-of-electrical-engineering-bl'>
+            <a
+              href='https://tttech-auto.talentlyft.com/blog/banja-luka-office-lT'
+              target='_blank'
+              rel='noreferrer'
+            >
               Banja Luka Office
-            </Link>
+            </a>
           </h3>
         </div>
       </div>
