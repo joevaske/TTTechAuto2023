@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollRestoration from 'react-scroll-restoration';
 
 import 'normalize.css';

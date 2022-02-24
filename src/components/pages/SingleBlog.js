@@ -10,6 +10,7 @@ const SingleBlog = ({ match }) => {
     <div className='single-blog'>
       {allNews.map(
         (news) =>
+          // eslint-disable-next-line
           news.id == match.params.id && (
             <SingleBlogDisplay key={news.id} news={news} />
           )
@@ -17,5 +18,5 @@ const SingleBlog = ({ match }) => {
     </div>
   );
 };
-
+// eslint-disable-next-line
 export default SingleBlog;
