@@ -10,7 +10,7 @@ import Header from './components/header/Header';
 import TopMenu from './components/header/top-menu/TopMenu';
 import Footer from './components/footer/Footer';
 import Loading from './components/loading/Loading';
-import Blog from './components/pages/Blog';
+/* import Blog from './components/pages/Blog'; */
 import SingleBlog from './components/pages/SingleBlog';
 
 /* import Home from './components/pages/Home';
@@ -46,7 +46,7 @@ const App = () => {
           />
           <Route path='/students-corner' component={StudentsCorner} />
 
-          <Route path='/blog' component={Blog} />
+          {/*  <Route path='/blog' component={Blog} /> */}
           <Route path='/blog-single/:id' component={SingleBlog} />
         </Switch>
 

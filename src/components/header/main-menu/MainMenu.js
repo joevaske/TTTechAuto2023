@@ -38,11 +38,11 @@ const MainMenu = ({ menuToggleState, menuToggleSetter }) => {
             Students' corner
           </Link>
         </li>
-        <li>
+        {/*  <li>
           <Link to='/blog' onClick={() => menuToggleSetter(!menuToggleState)}>
             Blog - SRB/CRO/BIH
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
