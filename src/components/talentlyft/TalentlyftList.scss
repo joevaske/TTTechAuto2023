@@ -1,0 +1,133 @@
+.jobs-list {
+  font-family: 'Substance-Light', Sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*   background-color: aqua; */
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  /*   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s linear;
+  z-index: 5; */
+
+  .job {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    h2 {
+      font-family: 'Substance-Thin', Sans-serif;
+      font-size: 32px;
+      line-height: 35px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 20px;
+      opacity: 0.9;
+      margin-bottom: 40px;
+    }
+
+    .apply-btn {
+      font-size: 22px;
+      font-weight: normal;
+      text-decoration: none;
+      display: inline-block;
+      color: #ffffff;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      padding: 15px 40px 19px 40px;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        color: #0093d0;
+        background-color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+  .job.nextSlide {
+    /* transform: translateX(-100%); */
+    opacity: 0;
+    z-index: -1;
+  }
+  .job.activeSlide {
+    opacity: 1;
+    z-index: 5;
+    /* transform: translateX(0); */
+  }
+  .job.lastSlide {
+    /* transform: translateX(100%); */
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .next,
+  .prev {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 10px 2px 10px;
+    transition: all 0.2s ease;
+
+    cursor: pointer;
+  }
+
+  .next:hover,
+  .prev:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .next {
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    transform: translateY(-50%);
+  }
+  .prev {
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    transform: translateY(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .jobs-list {
+    .job {
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+      .apply-btn {
+        font-size: 16px;
+      }
+    }
+    .next,
+    .prev {
+      font-size: 30px;
+    }
+  }
+}

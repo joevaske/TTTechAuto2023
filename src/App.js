@@ -7,11 +7,12 @@ import 'normalize.css';
 import './App.css';
 
 import Header from './components/header/Header';
-import TopMenu from './components/header/top-menu/TopMenu';
-import Footer from './components/footer/Footer';
+/* import TopMenu from './components/header/top-menu/TopMenu';
+ */ import Footer from './components/footer/Footer';
 import Loading from './components/loading/Loading';
 /* import Blog from './components/pages/Blog'; */
 import SingleBlog from './components/pages/SingleBlog';
+/* import AboutUs from './components/pages/AboutUs'; */
 
 /* import Home from './components/pages/Home';
 import WhatWeDo from './components/pages/WhatWeDo';
@@ -21,6 +22,7 @@ import StudentsCorner from './components/pages/StudentsCorner'; */
 
 const Home = lazy(() => import('./components/pages/Home'));
 const WhatWeDo = lazy(() => import('./components/pages/WhatWeDo'));
+const AboutUs = lazy(() => import('./components/pages/AboutUs'));
 const BePartOfUs = lazy(() => import('./components/pages/BePartOfUs'));
 const ContactAndLocations = lazy(() =>
   import('./components/pages/ContactAndLocations')
@@ -33,12 +35,14 @@ const App = () => {
       <Suspense fallback={<Loading />}>
         <ScrollRestoration />
         <div className='App'>
-          <TopMenu />
+          {/*  <TopMenu /> */}
           <Header />
         </div>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/what-we-do' component={WhatWeDo} />
+          <Route path='/about-us' component={AboutUs} />
+
           <Route path='/be-part-of-us' component={BePartOfUs} />
           <Route
             path='/contact-and-locations'

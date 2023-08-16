@@ -1,46 +1,53 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import HomeBoxModule from './HomeBoxModule';
 import './HomeBox.scss';
 
-import whatWeDoBox from '../../images/home-box/what-we-do.webp';
-import bePartOfUsBox from '../../images/home-box/be-part-of-us.webp';
-import contactAndLocationsBox from '../../images/home-box/contact-and-location.webp';
-import studentsCornerBox from '../../images/home-box/students-corner.webp';
+import aboutUsBox from '../../images/home-box/new/about-us.webp';
+import studentsCornerBox from '../../images/home-box/new/students-corner.webp';
+import ourTeamBox from '../../images/home-box/new/our-team.webp';
+import whatWeOfferBox from '../../images/home-box/new/what-we-offer.webp';
+import PageHeading from '../layout/PageHeading';
 
 const boxes = [
   {
     id: 1,
-    title: 'What we do',
+    title: 'About us',
+    text: 'Learn more about what we do at TTTech Auto CEE',
     url: 'what-we-do',
-    image: whatWeDoBox,
+    image: aboutUsBox,
   },
   {
     id: 2,
-    title: 'Be part of us',
+    title: 'Students corner',
+    text: 'Learn more about what we do at TTTech Auto CEE',
     url: 'be-part-of-us',
-    image: bePartOfUsBox,
+    image: studentsCornerBox,
   },
   {
     id: 3,
-    title: 'Contact and locations',
-    url: 'contact-and-locations',
-    image: contactAndLocationsBox,
+    title: 'Our team',
+    text: 'Portraits of some of our team members and their narrative about their positions',
+    url: 'students-corner',
+    image: ourTeamBox,
   },
   {
     id: 4,
-    title: "Students' corner",
+    title: 'What we offer',
+    text: 'Learn more about benefits of working at TTTech Auto Iberia',
     url: 'students-corner',
-    image: studentsCornerBox,
+    image: whatWeOfferBox,
   },
 ];
 
 const HomeBox = () => {
   return (
-    <div className='home-box'>
-      {boxes.map((box) => (
-        <HomeBoxModule key={box.id} boxItem={box} />
-      ))}
-    </div>
+    <Fragment>
+      <div className='home-box'>
+        {boxes.map((box) => (
+          <HomeBoxModule key={box.id} boxItem={box} />
+        ))}
+      </div>
+    </Fragment>
   );
 };
 

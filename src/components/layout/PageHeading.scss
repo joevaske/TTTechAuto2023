@@ -1,0 +1,33 @@
+.page-heading {
+  font-family: 'Substance-Regular', Sans-serif;
+  text-align: center;
+  margin: 100px 20px 60px 20px;
+  &::after {
+    background-color: #ff6100;
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 1rem;
+    width: 48px;
+    transform: skew(-12deg);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-family: 'Substance-Light', Sans-serif;
+    font-size: 52px;
+
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-heading {
+    h2 {
+      font-size: 36px;
+    }
+  }
+}

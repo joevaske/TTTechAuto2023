@@ -1,43 +1,56 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './MainMenu.scss';
 
 const MainMenu = ({ menuToggleState, menuToggleSetter }) => {
+  const handleClick = (event) => {
+    menuToggleSetter(!menuToggleState);
+  };
+
   return (
     <div className={`main-menu ${menuToggleState === true ? 'active' : ''}`}>
       <ul className='main-menu__items'>
         <li>
-          <Link
-            to='/what-we-do'
-            onClick={() => menuToggleSetter(!menuToggleState)}
+          <NavLink
+            to='/about-us'
+            onClick={() => handleClick()}
+            className={({ isActive, isPending }) =>
+              isPending ? 'pending' : isActive ? 'active' : ''
+            }
           >
-            What we do
-          </Link>
+            About us
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             to='/be-part-of-us'
-            onClick={() => menuToggleSetter(!menuToggleState)}
+            onClick={() => handleClick()}
+            className={({ isActive, isPending }) =>
+              isPending ? 'pending' : isActive ? 'active' : ''
+            }
           >
-            Be part of us
-          </Link>
+            Carreer Opportunities
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             to='/contact-and-locations'
-            onClick={() => menuToggleSetter(!menuToggleState)}
+            onClick={() => handleClick()}
+            className={({ isActive, isPending }) =>
+              isPending ? 'pending' : isActive ? 'active' : ''
+            }
           >
-            Contact and locations
-          </Link>
+            Contact
+          </NavLink>
         </li>
-        <li>
+        {/*  <li>
           <Link
             to='/students-corner'
             onClick={() => menuToggleSetter(!menuToggleState)}
           >
             Students' corner
           </Link>
-        </li>
+        </li> */}
         {/*  <li>
           <Link to='/blog' onClick={() => menuToggleSetter(!menuToggleState)}>
             Blog - SRB/CRO/BIH

@@ -1,0 +1,20 @@
+.our-team {
+  max-width: 1139px;
+  margin: 0 auto;
+
+  .member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+    &__image {
+      padding: 0 5px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .member:nth-child(2n) {
+  }
+}

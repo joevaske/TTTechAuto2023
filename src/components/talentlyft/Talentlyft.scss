@@ -1,0 +1,59 @@
+.talenlyft {
+  position: relative;
+  margin-bottom: 80px;
+  .talenlyft__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: inherit;
+    min-height: inherit;
+
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: inherit;
+      min-height: inherit;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+@media screen and (max-width: 768px) {
+  .talenlyft {
+    height: 450px;
+
+    .talentlyft__bg {
+      background-color: red;
+      height: 450px;
+      width: auto;
+
+      img {
+        max-width: 100%;
+        height: 450px;
+
+        object-fit: cover;
+        object-position: center top;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .talenlyft {
+    max-width: 1139px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+}

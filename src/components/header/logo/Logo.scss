@@ -1,12 +1,12 @@
-.logo {
-  width: 25rem;
+.logo img {
+  width: 290px220px;
   height: auto;
   transform: translateX(20px);
 }
 
 @media only screen and (min-width: 768px) {
-  .logo {
-    width: 30rem;
+  .logo img {
+    width: 290px;
     height: auto;
   }
 }
