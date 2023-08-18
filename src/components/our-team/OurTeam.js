@@ -61,7 +61,11 @@ const OurTeam = () => {
           return (
             <div className='member' key={member.id}>
               <div className='member__text'>
-                <PageHeading title={`${member.name} - ${member.title}`} />
+                {/*    <PageHeading title={`${member.name} - ${member.title}`} /> */}
+                <h2>
+                  {member.name}
+                  <span>{member.title}</span>
+                </h2>
                 <Paragraph text={`${member.text}`} align='left' />
               </div>
               <div className='member__image'>
@@ -76,7 +80,11 @@ const OurTeam = () => {
                 <img src={member.img} alt={member.name} />
               </div>
               <div className='member__text'>
-                <PageHeading title={`${member.name} - ${member.title}`} />
+                {/* <PageHeading title={`${member.name} - ${member.title}`} /> */}
+                <h2>
+                  {member.name}
+                  <span>{member.title}</span>
+                </h2>
                 <Paragraph text={`${member.text}`} align='left' />
               </div>
             </div>

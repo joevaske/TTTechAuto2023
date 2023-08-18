@@ -23,7 +23,7 @@ const MainMenu = ({ menuToggleState, menuToggleSetter }) => {
         </li>
         <li>
           <NavLink
-            to='/be-part-of-us'
+            to='/career-opportunities'
             onClick={() => handleClick()}
             className={({ isActive, isPending }) =>
               isPending ? 'pending' : isActive ? 'active' : ''

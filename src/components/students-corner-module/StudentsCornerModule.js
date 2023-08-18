@@ -15,14 +15,14 @@ const StudentsCornerModule = () => {
         </h2>
         <span className='page-title-decoration'></span> */}
 
-        <p>
+        {/*    <p>
           TTTech Auto CEE cooperates with universities in Novi Sad, Belgrade,
           Osijek, and Banja Luka, offering student programs in the field of
           autonomous driving, summer schools, scholarships, and internships with
           top industry topics and latest technologies. This cooperation also
           provides means of support to our engineers who balance their
           professional and academic career.
-        </p>
+        </p> */}
       </div>
       <div className='students-corner-module__content'>
         <div className='students-corner-module__content__item'>

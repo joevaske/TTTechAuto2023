@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contacts.scss';
 import Contact from './Contact';
+import PageHeading from '../layout/PageHeading';
 
 import serbiaFlag from '../../images/contacts/serbia.png';
 import croatiaFlag from '../../images/contacts/croatia.jpg';
@@ -13,7 +14,7 @@ const contactsData = [
     country: 'Novi Sad',
     title: 'TTTech Auto DOO Novi Sad',
     location: 'Narodnog fronta 23 F-G, Novi Sad, Serbia',
-    telephone: '+381 (0)21 4801 200',
+    telephone: '+381 (0)21 480 1258',
     email: 'office-srb@tttech-auto.com',
   },
   {
@@ -49,8 +50,7 @@ const Contacts = () => {
   return (
     <div className='contacts'>
       <div className='contacts__heading'>
-        <h2 className='contacts__heading__title'>TTTech Auto CEE</h2>
-        <span className='page-title-decoration'></span>
+        <PageHeading title='TTTech Auto CEE' />
       </div>
       <div className='contacts__body'>
         <Contact contactData={contactsData} />

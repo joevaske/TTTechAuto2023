@@ -50,11 +50,11 @@ const whatYouWillFindList = [
 const WhatYouWillFind = () => {
   return (
     <div className='what-you-will-find'>
-      <div className='what-you-will-find__heading'>
+      {/*  <div className='what-you-will-find__heading'>
         <h2 className='what-you-will-find__heading__title title-blue'>
           What you will find
         </h2>
-      </div>
+      </div> */}
       <ul className='what-you-will-find__list'>
         {whatYouWillFindList.map((list) => (
           <li key={list.id}>
@@ -63,11 +63,11 @@ const WhatYouWillFind = () => {
           </li>
         ))}
       </ul>
-      <div className='what-you-will-find__button'>
+      {/*   <div className='what-you-will-find__button'>
         <Link className='button-blue' to='/contact-and-location'>
           Contact us
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

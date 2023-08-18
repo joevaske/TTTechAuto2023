@@ -4,6 +4,7 @@ import contactAndLocationsImage from '../../images/home-box/contact-and-location
 import ContactForm from '../contact-form/ContactForm';
 import Contacts from '../contacts/Contacts';
 import PageIntro from '../page-intro/PageIntro';
+import Button from '../layout/elements/Button';
 
 const contactAndLocationsData = {
   title: 'Contact and locations',
@@ -15,7 +16,14 @@ const ContactAndLocations = () => {
     <div className='contact-and-locations'>
       <PageIntro pageIntro={contactAndLocationsData} />
       <Contacts />
-      <ContactForm />
+      {/*  <ContactForm /> */}
+
+      <Button
+        setClass='button-blue'
+        text='Follow us on LinkedIn'
+        link='https://www.linkedin.com/company/tttech-auto/'
+        target='__blank'
+      />
     </div>
   );
 };

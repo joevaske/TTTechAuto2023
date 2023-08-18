@@ -1,0 +1,41 @@
+.jobs {
+  max-width: 1139px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  .job {
+    font-family: 'Substance-Regular', Sans-serif;
+    font-size: 18px;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:nth-child(2n + 1) {
+      background-color: #f0f3f5;
+    }
+
+    &__title {
+      a {
+        text-decoration: none;
+        color: #0093d0;
+        border-bottom: 1px solid #0093d0;
+      }
+    }
+
+    &__location {
+      font-size: 18px;
+      font-weight: 400;
+      color: #676767;
+      text-align: right;
+    }
+  }
+}

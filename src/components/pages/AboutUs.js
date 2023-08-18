@@ -6,6 +6,8 @@ import Button from '../layout/elements/Button';
 import TextHeading from '../layout/elements/TextHeading';
 import AboutUsIntro from '../about-us-intro/AboutUsIntro';
 import OurTeam from '../our-team/OurTeam';
+import StudentsCornerModule from '../students-corner-module/StudentsCornerModule';
+import WhatYouWillFind from '../what-you-will-find/WhatYouWillFind';
 
 const AboutUs = () => {
   const aboutUsPageData = {
@@ -60,9 +62,12 @@ As this is a real time software requiring timely exchange of information accordi
         link='https://www.tttech-auto.com/software-products'
         target='__blank'
       />
+      <StudentsCornerModule />
       <AboutUsIntro />
       <PageHeading title='Our team' />
       <OurTeam />
+      <PageHeading title='What we offer' />
+      <WhatYouWillFind />
     </div>
   );
 };

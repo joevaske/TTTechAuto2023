@@ -12,6 +12,7 @@ import Header from './components/header/Header';
 import Loading from './components/loading/Loading';
 /* import Blog from './components/pages/Blog'; */
 import SingleBlog from './components/pages/SingleBlog';
+import CareerOpportunitites from './components/pages/CarrerOpportunities';
 /* import AboutUs from './components/pages/AboutUs'; */
 
 /* import Home from './components/pages/Home';
@@ -43,7 +44,11 @@ const App = () => {
           <Route path='/what-we-do' component={WhatWeDo} />
           <Route path='/about-us' component={AboutUs} />
 
-          <Route path='/be-part-of-us' component={BePartOfUs} />
+          <Route
+            path='/career-opportunities'
+            component={CareerOpportunitites}
+          />
+
           <Route
             path='/contact-and-locations'
             component={ContactAndLocations}
