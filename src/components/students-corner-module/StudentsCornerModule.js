@@ -26,7 +26,13 @@ const StudentsCornerModule = () => {
       </div>
       <div className='students-corner-module__content'>
         <div className='students-corner-module__content__item'>
-          <img src={nsLogo} alt='Novi Sad Office' />
+          <a
+            href='https://tttech-auto.talentlyft.com/blog/novi-sad-office-lS'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={nsLogo} alt='Novi Sad Office' />
+          </a>
           <h3>
             <a
               href='https://tttech-auto.talentlyft.com/blog/novi-sad-office-lS'
@@ -39,7 +45,13 @@ const StudentsCornerModule = () => {
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
-          <img src={bgLogo} alt='Belgrade Office' />
+          <a
+            href='https://tttech-auto.talentlyft.com/blog/belgrade-office-lV'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={bgLogo} alt='Belgrade Office' />
+          </a>
           <h3>
             <a
               href='https://tttech-auto.talentlyft.com/blog/belgrade-office-lV'
@@ -51,7 +63,13 @@ const StudentsCornerModule = () => {
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
-          <img src={osLogo} alt='Osijek Office' />
+          <a
+            href='https://tttech-auto.talentlyft.com/blog/osijek-office-lU'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={osLogo} alt='Osijek Office' />
+          </a>
           <h3>
             <a
               href='https://tttech-auto.talentlyft.com/blog/osijek-office-lU'
@@ -63,7 +81,14 @@ const StudentsCornerModule = () => {
           </h3>
         </div>
         <div className='students-corner-module__content__item'>
-          <img src={blLogo} alt='Banja Luka Office' />
+          <a
+            href='https://tttech-auto.talentlyft.com/blog/banja-luka-office-lT'
+            target='_blank'
+            rel='noreferrer'
+          >
+            {' '}
+            <img src={blLogo} alt='Banja Luka Office' />{' '}
+          </a>
           <h3>
             <a
               href='https://tttech-auto.talentlyft.com/blog/banja-luka-office-lT'

@@ -5,11 +5,14 @@ const Contact = ({ contactData }) => {
     <div className='contact'>
       {contactData.map((data) => (
         <div key={data.id} className='contact__item'>
-          <div className='contact__item__country'>
+          {/* <div className='contact__item__country'>
             <div className='contact__item__country__flag'>
               <img src={data.flag} alt={data.country} />
             </div>
             <div className='contact__item__country__name'>{data.country} </div>
+          </div> */}
+          <div className='contact__item__town-image'>
+            <img src={data.img} alt={data.title} />
           </div>
           <div className='contact__item__address'>
             <h2 className='contact__item__address__title'>{data.title}</h2>

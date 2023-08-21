@@ -7,10 +7,18 @@ import serbiaFlag from '../../images/contacts/serbia.png';
 import croatiaFlag from '../../images/contacts/croatia.jpg';
 import bosniaFlag from '../../images/contacts/bosnia.jpg';
 
+// images
+
+import noviSadImage from '../../images/contacts/NoviSad.webp';
+import belgradeImage from '../../images/contacts/Beograd.webp';
+import banjaLukaImage from '../../images/contacts/BanjaLuka.webp';
+import osijekImage from '../../images/contacts/Osijek.webp';
+
 const contactsData = [
   {
     id: 1,
     flag: serbiaFlag,
+    img: noviSadImage,
     country: 'Novi Sad',
     title: 'TTTech Auto DOO Novi Sad',
     location: 'Narodnog fronta 23 F-G, Novi Sad, Serbia',
@@ -20,6 +28,7 @@ const contactsData = [
   {
     id: 2,
     flag: croatiaFlag,
+    img: osijekImage,
     country: 'Osijek',
     title: 'TTTech Auto d.o.o.',
     location: 'Cara Hadrijana 10b, Osijek, Croatia',
@@ -29,6 +38,7 @@ const contactsData = [
   {
     id: 3,
     flag: serbiaFlag,
+    img: belgradeImage,
     country: 'Belgrade',
     title: 'TTTech Auto DOO Novi Sad',
     location: 'Dunavska 2v, Belgrade, Serbia',
@@ -38,6 +48,7 @@ const contactsData = [
   {
     id: 4,
     flag: bosniaFlag,
+    img: banjaLukaImage,
     country: 'Banja Luka',
     title: 'TTTech Auto d.o.o. Banja Luka',
     location: 'Jovana Dučića 23a, Banjaluka, Bosnia & Herzegovina',

@@ -7,43 +7,50 @@ import { FaCheck } from 'react-icons/fa';
 const whatYouWillFindList = [
   {
     id: 1,
-    title: 'Working with Innovative technology',
+    title:
+      'Have a real impact - turn your ideas into reality from day one and integrate your work into the products of world leading companies',
   },
   {
     id: 2,
-    title: 'Professional Development',
+    title: 'Flexible working conditions - flexible working hours, remote work',
   },
   {
     id: 3,
-    title: 'Flexible Hours',
+    title:
+      'We are a passionate team – we have open door policy, transpatent communication',
   },
   {
     id: 4,
-    title: 'Daily Challenges',
+    title:
+      'We stay connected as a team - trough team building activities, corporate events, sport activities, fun room',
   },
   {
     id: 5,
-    title: 'Flexible Remuneration Plan',
+    title:
+      'Professional training and development program – we provide technical and soft skill trainings, licence for e-learning platforms ( Udemy ), professional library, English language courses',
   },
   {
     id: 6,
-    title: 'Trainings and Technical Onboardings',
+    title: 'Comprehensive onboarding program',
   },
   {
     id: 7,
-    title: 'Working with an Experienced International Team',
+    title:
+      "Family policy –includes bonuses and gifts for new-borns, Family day, New Year's kids program, Theatre tickets",
   },
   {
     id: 8,
-    title: 'Teambuilding',
+    title: 'Additional budget for equipment',
   },
   {
     id: 9,
-    title: 'Offices with the most up-to-date Technology and Equipment',
+    title:
+      'Healthcare program - private health insurance and annual physical exam',
   },
   {
     id: 10,
-    title: 'Fitness Package',
+    title:
+      'Discounts at local shopsDiversity - 2,300 people from 60 countries, speaking 100 different languages',
   },
 ];
 

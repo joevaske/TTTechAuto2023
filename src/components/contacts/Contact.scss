@@ -24,6 +24,11 @@
         padding-right: 20px;
       }
     }
+
+    &__town-image {
+      padding: 0 0 15px 0;
+      border-bottom: 2px solid #575756;
+    }
     &__address {
       font-family: 'Substance-Light', 'sans-serif';
       margin: 20px 0;
