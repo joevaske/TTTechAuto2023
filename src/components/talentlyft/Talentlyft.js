@@ -8,7 +8,9 @@ const Talentlyft = () => {
   const { data, error, isLoading } = useFetch(
     'https://api.talentlyft.com/v2/public/tttech-auto/jobs'
   );
-
+  if (error) {
+    console.log(error);
+  }
   return (
     <Fragment>
       <div className='talenlyft'>

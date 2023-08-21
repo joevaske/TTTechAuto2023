@@ -6,35 +6,35 @@ import aboutUsBox from '../../images/home-box/new/about-us.webp';
 import studentsCornerBox from '../../images/home-box/new/students-corner.webp';
 import ourTeamBox from '../../images/home-box/new/our-team.webp';
 import whatWeOfferBox from '../../images/home-box/new/what-we-offer.webp';
-import PageHeading from '../layout/PageHeading';
-
+/* import PageHeading from '../layout/PageHeading';
+ */
 const boxes = [
   {
     id: 1,
-    title: 'About us',
+    title: 'What we do',
     text: 'Learn more about what we do at TTTech Auto CEE',
-    url: 'what-we-do',
+    url: 'about-us',
     image: aboutUsBox,
   },
   {
     id: 2,
     title: 'Students corner',
     text: 'Learn more about what we do at TTTech Auto CEE',
-    url: 'be-part-of-us',
+    url: 'students-corner',
     image: studentsCornerBox,
   },
   {
     id: 3,
     title: 'Our team',
     text: 'Portraits of some of our team members and their narrative about their positions',
-    url: 'students-corner',
+    url: 'about-us#our-team',
     image: ourTeamBox,
   },
   {
     id: 4,
     title: 'What we offer',
     text: 'Learn more about benefits of working at TTTech Auto Iberia',
-    url: 'students-corner',
+    url: 'about-us#what-we-offer',
     image: whatWeOfferBox,
   },
 ];

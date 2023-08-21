@@ -24,7 +24,7 @@ import StudentsCorner from './components/pages/StudentsCorner'; */
 const Home = lazy(() => import('./components/pages/Home'));
 const WhatWeDo = lazy(() => import('./components/pages/WhatWeDo'));
 const AboutUs = lazy(() => import('./components/pages/AboutUs'));
-const BePartOfUs = lazy(() => import('./components/pages/BePartOfUs'));
+/* const BePartOfUs = lazy(() => import('./components/pages/BePartOfUs')); */
 const ContactAndLocations = lazy(() =>
   import('./components/pages/ContactAndLocations')
 );

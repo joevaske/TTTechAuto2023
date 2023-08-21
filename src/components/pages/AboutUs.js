@@ -8,6 +8,7 @@ import AboutUsIntro from '../about-us-intro/AboutUsIntro';
 import OurTeam from '../our-team/OurTeam';
 import StudentsCornerModule from '../students-corner-module/StudentsCornerModule';
 import WhatYouWillFind from '../what-you-will-find/WhatYouWillFind';
+import WhatDefinesUsBetter from '../what-defines-us-better/WhatDefinesUsBetter';
 
 const AboutUs = () => {
   const aboutUsPageData = {
@@ -63,6 +64,7 @@ As this is a real time software requiring timely exchange of information accordi
         target='__blank'
       />
       <StudentsCornerModule />
+      <WhatDefinesUsBetter />
       <AboutUsIntro />
       <PageHeading title='Our team' />
       <OurTeam />

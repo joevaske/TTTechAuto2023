@@ -5,13 +5,16 @@ const JobList = () => {
   const { data, error, isLoading } = useFetch(
     'https://api.talentlyft.com/v2/public/tttech-auto/jobs'
   );
+  if (error) {
+    console.log(error);
+  }
   return (
     <ul className='jobs'>
       {!isLoading &&
         data.Results.map((job) => (
           <li className='job' key={job.Id}>
             <div className='job__title'>
-              <a href={job.ShortlinkUrl} target='_blank'>
+              <a href={job.ShortlinkUrl} target='_blank' rel='noreferrer'>
                 {job.Title}
               </a>
             </div>

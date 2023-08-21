@@ -36,7 +36,7 @@ const TelentlyftList = ({ jobs }) => {
         }
         if (
           indexJobs === index - 1 ||
-          (index === 0 && indexJobs == jobs.length - 1)
+          (index === 0 && indexJobs === jobs.length - 1)
         ) {
           position = 'lastSlide';
         }

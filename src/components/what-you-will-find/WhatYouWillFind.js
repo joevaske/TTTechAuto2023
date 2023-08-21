@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './WhatYouWillFind.scss';
 
 import { FaCheck } from 'react-icons/fa';
@@ -56,7 +55,7 @@ const whatYouWillFindList = [
 
 const WhatYouWillFind = () => {
   return (
-    <div className='what-you-will-find'>
+    <div className='what-you-will-find' id='what-we-offer'>
       {/*  <div className='what-you-will-find__heading'>
         <h2 className='what-you-will-find__heading__title title-blue'>
           What you will find

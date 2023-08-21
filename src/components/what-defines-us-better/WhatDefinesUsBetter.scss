@@ -1,0 +1,63 @@
+.what-defines-us-better {
+  max-width: 1139px;
+  margin: 50px auto 100px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Substance-Bold', Sans-serif;
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    span {
+      font-size: 35px;
+      display: block;
+      width: 70px;
+      height: 70px;
+      padding: 15px 10px 10px 17px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+  }
+
+  .item-1 {
+    color: #e2ab4c;
+
+    span {
+      background-color: #e2ab4c;
+      color: #575756;
+    }
+  }
+  .item-2 {
+    color: #68b786;
+
+    span {
+      background-color: #68b786;
+      color: #575756;
+    }
+  }
+  .item-3 {
+    color: #a089aa;
+
+    span {
+      background-color: #a089aa;
+      color: #575756;
+    }
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .what-defines-us-better {
+    max-width: 350px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

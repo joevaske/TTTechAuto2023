@@ -5,8 +5,8 @@ import milovanVidovic from '../../images/our-team/MilovanVidovic.webp';
 import zvjezdanSpasic from '../../images/our-team/ZvjezdanSpasic.webp';
 import sladjanaIvivc from '../../images/our-team/SladjanaIvic.webp';
 import ivanaTesevic from '../../images/our-team/IvanaTesevic.webp';
-import PageHeading from '../layout/PageHeading';
-import Paragraph from '../layout/elements/Paragraph';
+/* import PageHeading from '../layout/PageHeading';
+ */ import Paragraph from '../layout/elements/Paragraph';
 
 const ourTeam = [
   {
@@ -53,7 +53,6 @@ const ourTeam = [
   },
 ];
 const OurTeam = () => {
-  console.log(ourTeam);
   return (
     <div className='our-team'>
       {ourTeam.map((member, index) => {

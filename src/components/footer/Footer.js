@@ -16,7 +16,7 @@ const Footer = () => {
         <p>General conditions of access and use</p>
       </div> */}
         <div className='footer__right'>
-          <a href='http://localhost:3000/#' target='_blank'>
+          <a href='http://localhost:3000/#' target='_blank' rel='noreferrer'>
             <FaLinkedinIn />
           </a>
         </div>
