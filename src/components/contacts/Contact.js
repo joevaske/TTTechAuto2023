@@ -17,10 +17,18 @@ const Contact = ({ contactData }) => {
           <div className='contact__item__address'>
             <h2 className='contact__item__address__title'>{data.title}</h2>
             <p className='contact__item__address__location'>{data.location}</p>
-            <p className='contact__item__address__telephone'>
+            <a
+              className='contact__item__address__telephone'
+              href={`tel:${data.telephone}`}
+            >
               {data.telephone}
-            </p>
-            <p className='contact__item__address__email'>{data.email}</p>
+            </a>
+            <a
+              className='contact__item__address__email'
+              href={`tel:${data.email}`}
+            >
+              {data.email}
+            </a>
           </div>
         </div>
       ))}

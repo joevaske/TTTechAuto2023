@@ -65,8 +65,10 @@ As this is a real time software requiring timely exchange of information accordi
       />
       <StudentsCornerModule />
       <WhatDefinesUsBetter />
-      <AboutUsIntro />
+      {/*     <AboutUsIntro /> */}
+      <section id='our-team'></section>
       <PageHeading title='Our team' />
+
       <OurTeam />
       <PageHeading title='What we offer' />
       <WhatYouWillFind />

@@ -27,14 +27,14 @@ const boxes = [
     id: 3,
     title: 'Our team',
     text: 'Portraits of some of our team members and their narrative about their positions',
-    url: 'about-us#our-team',
+    url: '/about-us#our-team',
     image: ourTeamBox,
   },
   {
     id: 4,
     title: 'What we offer',
-    text: 'Learn more about benefits of working at TTTech Auto Iberia',
-    url: 'about-us#what-we-offer',
+    text: 'Learn more about benefits of working at TTTech CEE',
+    url: '/about-us#what-we-offer',
     image: whatWeOfferBox,
   },
 ];

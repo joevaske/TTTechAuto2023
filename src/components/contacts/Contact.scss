@@ -42,13 +42,13 @@
         font-size: 18px;
         margin-bottom: 20px;
       }
-      &__telephone {
-        font-size: 18px;
-        margin-bottom: 20px;
-      }
+      &__telephone,
       &__email {
         font-size: 18px;
         margin-bottom: 20px;
+        display: block;
+        text-decoration: none;
+        color: #575756;
       }
     }
   }

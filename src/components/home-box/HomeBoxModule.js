@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import './HomeBoxModule.scss';
 
@@ -12,10 +12,10 @@ const HomeBoxModule = ({ boxItem }) => {
       <div className='home-box-module__text'>
         <h1>{boxItem.title}</h1>
         <p>{boxItem.text}</p>
-        <Link className='home-box-module__link' to={boxItem.url}>
+        <HashLink className='home-box-module__link' to={boxItem.url}>
           {' '}
           Learn more{' '}
-        </Link>
+        </HashLink>
       </div>
     </div>
   );
