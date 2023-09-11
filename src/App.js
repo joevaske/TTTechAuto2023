@@ -54,7 +54,7 @@ const App = () => {
             path='/contact-and-locations'
             component={ContactAndLocations}
           />
-          <Route path='/students-corner' component={StudentsCorner} />
+          {/*   <Route path='/students-corner' component={StudentsCorner} /> */}
 
           {/*  <Route path='/blog' component={Blog} /> */}
           <Route path='/blog-single/:id' component={SingleBlog} />

@@ -36,7 +36,7 @@ const Home = () => {
       />
       <Button
         setClass='button-blue'
-        text='Follow TTTech Auto CEE'
+        text='Follow TTTech Auto'
         link='https://www.linkedin.com/company/tttech-auto/'
         target='__blank'
       />

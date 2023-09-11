@@ -20,7 +20,7 @@ const boxes = [
     id: 2,
     title: 'Students corner',
     text: 'Learn more about what we do at TTTech Auto CEE',
-    url: 'students-corner',
+    url: '/about-us#students-corner',
     image: studentsCornerBox,
   },
   {
