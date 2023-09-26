@@ -35,7 +35,7 @@ const ourTeam = [
     name: 'Zvjezdan Spasic',
     title: 'Chief Architect - SP - AD Platform Development',
     img: zvjezdanSpasic,
-    text: 'In 2017, I got a job at ZF in Germany, where I spent two years working on the ABS platform and traction control system for the BMW cars. When I returned to Serbia in 2019, I also returned to TTTech Auto, ruling out any other option.',
+    text: 'What is the most important characteristic that we should possess? It is "to be engineers." This may sound like a cliché, but for me, being an engineer means being able to solve a problem you encounter for the first time. Giving up is not an option, instead, it\'s about changing your approach and perspective on the problem.',
   },
   {
     id: 5,
